@@ -5,7 +5,7 @@ import { PersistGate } from "redux-persist/integration/react";
 import "modern-normalize";
 import "./index.css";
 import App from "./components/App/App";
-import { store, persistor } from "./redux/store"; // Підключаємо store та persistor
+import { store, persistor } from "./redux/store"; 
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
